@@ -1,0 +1,15 @@
+{
+    "extends": "@tsconfig/node17/tsconfig.json",
+    "compilerOptions": {
+        "pretty": true,
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "rootDir": "./",
+        "outDir": "./dist",
+        "baseUrl": "./src",
+        "allowJs": true,
+        "strictNullChecks": false,
+        "noImplicitAny": false
+    },
+    "include": ["src/**/*"]
+}

@@ -1,0 +1,4 @@
+type Query {
+    "New query to be exposed by 2nd supergraph"
+    newQuery: String
+}

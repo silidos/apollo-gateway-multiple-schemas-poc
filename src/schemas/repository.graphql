@@ -1,0 +1,11 @@
+type Query {
+    "Returns details of this repo"
+    detailsOfThisRepository: RepositoryDetails
+}
+
+type RepositoryDetails {
+    "Name of this repository"
+    name: String
+    "When this repository was created"
+    dateCreated: String
+}

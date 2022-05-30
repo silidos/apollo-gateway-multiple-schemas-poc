@@ -1,0 +1,13 @@
+subgraphs:
+  hello:
+    routing_url: http://localhost:8080
+    schema:
+      file: ../hello.graphql
+  repository:
+    routing_url: http://localhost:8080
+    schema:
+      file: ../new.graphql
+  new:
+    routing_url: http://localhost:8080
+    schema:
+      file: ../repository.graphql

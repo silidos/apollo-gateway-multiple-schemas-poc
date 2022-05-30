@@ -8,4 +8,4 @@ npm install && npm run dev
 
 The server will be started on port 8080.
 
-If you wish to change the supergraphs, you may do so by editing the schemas and supergraph.yaml files and running the rover supergraph compose command locally.
+If you wish to change the supergraphs, you may do so by editing the schemas and supergraph.yaml files. Then, you can run the rover supergraph compose command locally and edit the supergraph schemas with the new output.
